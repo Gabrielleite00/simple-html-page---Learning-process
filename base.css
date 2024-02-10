@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+}
+
+
+body {
+    background-color: #9d9696;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(227, 235, 75);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    font-size: 25px;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(227, 235, 75);
+    padding: 10px 20px 0px;
+    font-size: 20px;
+}
+.header {
+    background-color: rgb(227, 235, 75);
+    min-height: 150px;
+    font-size: 25px;
+}
+.content {
+    background-color: #9d9696;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.maps {
+    height: 5px;
+    display: inline;
+    align-content: center;
+    size: 5px;
+}
+
+.footer {
+    background-color: rgb(227, 235, 75);
+    min-height: 150px;
+    text-align: center;   
+
+}
+
+.links {
+    background-color: rgb(227, 235, 75);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
